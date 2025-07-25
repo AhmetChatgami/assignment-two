@@ -296,6 +296,33 @@ button:hover {
   background-color: #cc5815;
 }
 
+/* footer-section */
+.footer{
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  gap: 40px ;
+  text-decoration: none;
+  margin: 80px 80px;
+  justify-content: center;
+  ;
+}
+.kahini{
+  margin: 10 10px ;
+  list-style: none;
+  text-decoration: none;
+  gap: 40px ;
+  align-items: ;
+  flex-direction: row;
+}
+
+.footer-socials{
+  display: flex;
+  height: 30px;
+  gap: 20px ;
+  align-items: center;
+}
+
 /* Responsive adjustments */
 @media (max-width: 600px) {
   .subscribe-content h1 {
