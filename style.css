@@ -10,12 +10,12 @@ body {
   background-color: #fff;
   color: #333;
   margin: 0 auto;
+  max-width: 100%;
 }
 
 /* Header */
 header {
   width: 100%;
-  /* border-bottom: 1px solid #e0e0e0; */
   padding: 20px 40px;
 }
 
@@ -228,7 +228,27 @@ font-size: larger;
   text-decoration: underline;
 }
 
+/* deals */
 
+.deals{
+  /* background-image: url(images/deal-bloom.png); 
+  background-color:#666;
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  justify-items: center;
+  color: white; */
+  display: flex;
+  gap: 40px ;
+  height: 200px;
+  width: 200px;
+  align-items: center;
+}
+.deal-bloom{
+  
+}
 /* subscribe section */
 /* body {
   margin: 0;
@@ -327,6 +347,68 @@ button:hover {
   align-items: center;
 }
 
+/* Lates Deals */
+.container {
+ display: flex;
+ gap: 20px;
+ padding: 20px;
+
+}
+
+
+.left-section {
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+}
+
+
+.small-card, .large-card {
+ position: relative;
+ border-radius: 10px;
+ overflow: hidden;
+
+}
+
+
+.small-card img, .large-card img {
+ display: block;
+ width: 100%;
+ height: auto;
+}
+
+
+.overlay {
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ width: 100%;
+  padding: 15px;
+ text-align: center;
+}
+
+/* promo-title */
+.promo-title{
+  text-align: center;
+  align-items: center;
+}
+.text {
+ color:white;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+}
+
+@media screen (max-width: 768px) {
+  .container{
+    flex-direction: column;
+    align-items: center;
+  }
+  .left-section{
+    flex-direction: column;
+    aspect-ratio: 1 / 2;
+  }
+}
 /* Responsive adjustments */
 @media (max-width: 600px) {
   .subscribe-content h1 {
@@ -380,6 +462,6 @@ button:hover {
   /* .footer-socials {
     justify-content: center; */
   }
-}
+
   
   
