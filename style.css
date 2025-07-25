@@ -129,16 +129,17 @@ font-size: larger;
 }
 
 .image-wrapper img {
-  width: 100%;
-  border-radius: 12px;
+  width: 80%;
+  height: ;
+  border-radius: px;
   /* box-shadow: 0 6px 16px rgba(0,0,0,0.1); */
 }
 
 .badge {
   position: absolute;
-  top: -40px;
-  left: 350px;
-  right: -50px;
+  top: -60px;
+  left: 270px;
+  right: -15px;
   
 }
 
@@ -300,12 +301,12 @@ button:hover {
 .footer{
   display: flex;
   list-style: none;
-  text-decoration: none;
   gap: 40px ;
   text-decoration: none;
   margin: 80px 80px;
   justify-content: center;
   ;
+  justify-content: space-around;
 }
 .kahini{
   margin: 10 10px ;
@@ -313,7 +314,10 @@ button:hover {
   text-decoration: none;
   gap: 40px ;
   align-items: ;
-  flex-direction: row;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  
 }
 
 .footer-socials{
@@ -356,7 +360,25 @@ button:hover {
 /* Responsive */
 @media screen and (max-width: 576px){
   .navbar, .navs, .banner-image, .banner{
+    flex-direction:column-reverse;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
     flex-direction: column;
+    align-i;
+    text-align: cente;
+    padding: 24px;
+  }
+
+  .kahini {
+    margin-bottom: 24px;
+    padding: 0;
+  }
+
+  /* .footer-socials {
+    justify-content: center; */
   }
 }
   
